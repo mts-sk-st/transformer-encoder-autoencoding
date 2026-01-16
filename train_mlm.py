@@ -4,7 +4,7 @@ from torch.optim import Adam
 from encoder import MLMModel
 
 PAD = "[PAD]"
-MASK = "[MASK]"
+MASK = "[mask]"
 UNK = "[UNK]"
 
 data = [
